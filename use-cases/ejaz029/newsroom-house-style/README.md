@@ -35,6 +35,7 @@ Rules cover numbers, abbreviations, initials, quotation marks, jargon, usage, cl
 2. **G07** — "obligated" vs "obliged" (usage) — 20/20 articles
 3. **G01** — number formatting —20 violations across 15 articles
 4. **G04** — quotation marks — 15 violations across 15 articles
+
 **Known limitation, stated plainly:** 78 planted − 8 missed = 70 violations that should exactly match a planted case. SuperDocs reported 75 total, and only 1 of the extra 5 findings was traced and documented as a clear false positive (see below). The remaining 4 were not individually re-traced against the planted set — a real gap in the audit's completeness, not a hidden one. A production version of this pipeline would assert a 1:1 match between every reported finding and a planted case, not just spot-check one.
 
 ## SuperDocs workflow
